@@ -12,7 +12,7 @@ namespace PasteFromJsonToClassObject
         public const string Description = @"Pastes Json from clipboard as C# classes";
         public const string Language = "en-US";
         public const string Version = "1.0";
-        public const string Author = ".";
+        public const string Author = "Vlad Gaman";
         public const string Tags = "";
     }
 }

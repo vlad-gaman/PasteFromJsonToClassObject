@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="PasteFromJsonToClassObject.4dc0b045-ad2a-4706-ba64-d2c8ee2eb0b2" Version="1.0" Language="en-US" Publisher="." />
+        <Identity Id="PasteFromJsonToClassObject.4dc0b045-ad2a-4706-ba64-d2c8ee2eb0b2" Version="1.0" Language="en-US" Publisher="Vlad Gaman" />
         <DisplayName>PasteFromJsonToClassObject</DisplayName>
         <Description xml:space="preserve">Pastes Json from clipboard as C# classes</Description>
         <Icon>Resources\Icon.png</Icon>
