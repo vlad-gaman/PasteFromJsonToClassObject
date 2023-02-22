@@ -37,6 +37,6 @@
 	
   <KeyBindings>
     <KeyBinding guid="PasteFromJsonToClassObject" id="SpecialPasteJsonCommand"
-        editor="guidVSStd97" key1="j" mod1="Control" mod2="Shift"/>
+        editor="guidVSStd97" key1="j" mod1="Control Shift"/>
   </KeyBindings>
 </CommandTable>
