@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="PasteFromJsonToClassObject">
+    <Groups>
+      <Group guid="PasteFromJsonToClassObject" id="SpecialPasteJsonMenuGroup" priority="0x0600">
+        <Parent guid="VSMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+      </Group>
+    </Groups>
+
+    <!--This section defines the elements the user can interact with, like a menu command or a button
+        or combo box in a toolbar. -->
+    <Buttons>
+      <Button guid="PasteFromJsonToClassObject" id="SpecialPasteJsonCommand" priority="0x0100" type="Button">
+        <Parent guid="PasteFromJsonToClassObject" id="SpecialPasteJsonMenuGroup" />
+        <Icon guid="ImageCatalogGuid" id="PasteTable" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Paste Json as C# Classes</ButtonText>
+          <LocCanonicalName>.PasteFromJsonToClassObject.SpecialPasteJsonCommand</LocCanonicalName>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="PasteFromJsonToClassObject" value="{de06d02f-09d5-41b2-88d3-025c94172780}">
+      <IDSymbol name="SpecialPasteJsonMenuGroup" value="0x0001" />
+      <IDSymbol name="SpecialPasteJsonCommand" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+	
+  <KeyBindings>
+    <KeyBinding guid="PasteFromJsonToClassObject" id="SpecialPasteJsonCommand"
+        editor="guidVSStd97" key1="j" mod1="Control" mod2="Shift"/>
+  </KeyBindings>
+</CommandTable>
